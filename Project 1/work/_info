@@ -1,0 +1,233 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1
+vALU
+!s110 1586697361
+!i10b 1
+!s100 0X]T3i3D2:V_j6zdYo5DR1
+IZeMk`4?j[mN`D<lM3nRUT1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1586697354
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1586697361.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@a@l@u
+vALU_Control
+!s110 1586682839
+!i10b 1
+!s100 I317>2ZlzAV0BUH6Q`?iF0
+I;CbTXHW=_HEi;^Kd<6lQV2
+R1
+R0
+w1586682831
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU_Control.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU_Control.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586682839.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU_Control.v|
+!i113 1
+R3
+R4
+n@a@l@u_@control
+vControl
+!s110 1586702883
+!i10b 1
+!s100 C5<8Yn4N9MSlP;8J<`e2Z0
+I<GR40lzlT:^EN_Z]0GzOF1
+R1
+R0
+w1586702831
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\control.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\control.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586702883.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\control.v|
+!i113 1
+R3
+R4
+n@control
+vData_Memory
+!s110 1586605930
+!i10b 1
+!s100 ad:]aZ9hC9gFlm4_^Y3iY3
+IocX2_RRFjF7R4WkFLOQ1d3
+R1
+R0
+w1586605919
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Data_Memory.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Data_Memory.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586605930.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Data_Memory.v|
+!i113 1
+R3
+R4
+n@data_@memory
+vInstruction_Memory
+!s110 1586702748
+!i10b 1
+!s100 4LBo:N0ChU7S8^^b;;=;?2
+IF<BCoHOK?9VgO4_FnNPO:0
+R1
+R0
+w1586702743
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Instruction_Memory.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Instruction_Memory.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586702748.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Instruction_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Instruction_Memory.v|
+!i113 1
+R3
+R4
+n@instruction_@memory
+vMIPS_Datapath
+!s110 1586711059
+!i10b 1
+!s100 JNb8e@OPGfQT@KVH_X5G93
+I2A1Fh=5Tg1T_k>K<@XTB42
+R1
+R0
+w1586711053
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_32-bit_DataPath.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_32-bit_DataPath.v
+Fsign_Extension.v
+Fshifter.v
+FbranchALU.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586711059.000000
+!s107 branchALU.v|shifter.v|sign_Extension.v|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_32-bit_DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_32-bit_DataPath.v|
+!i113 1
+R3
+R4
+n@m@i@p@s_@datapath
+vMIPS_TB
+!s110 1586702366
+!i10b 1
+!s100 3C6Uh>]k[8ODoblAo<FaZ0
+IJ]c=5R_o?E4HNf4Ch5B[k1
+R1
+R0
+w1586702357
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_TB.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_TB.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586702366.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_TB.v|
+!i113 1
+R3
+R4
+n@m@i@p@s_@t@b
+vMux_2to1
+!s110 1586576538
+!i10b 1
+!s100 gXheW7iX=KeM7QUch3D]Y3
+I0mdC`klJV;kSA=bWacejz2
+R1
+R0
+w1586473144
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Mux_2to1.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Mux_2to1.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586576538.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Mux_2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Mux_2to1.v|
+!i113 1
+R3
+R4
+n@mux_2to1
+vPC
+!s110 1586601796
+!i10b 1
+!s100 j=lFWkNL91GHHgEBzQ@g[1
+IG?FRK5b4z[9DJ8H=V>0MK0
+R1
+R0
+w1586601786
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\program_counter.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\program_counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586601796.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\program_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\program_counter.v|
+!i113 1
+R3
+R4
+n@p@c
+vRegister_File
+!s110 1586576580
+!i10b 1
+!s100 iX`BoGj3Z^UK[jmVbk1SF0
+I_5[[G9DzlJJQGi@TIJb?]1
+R1
+R0
+w1586573315
+8C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\register_File.v
+FC:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\register_File.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1586576580.000000
+!s107 C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\register_File.v|
+!i113 1
+R3
+R4
+n@register_@file
