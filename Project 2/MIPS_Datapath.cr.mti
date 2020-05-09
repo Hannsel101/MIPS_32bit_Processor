@@ -1,47 +1,47 @@
-{C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Instruction_Memory.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Instruction_Memory.v}
+{C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Instruction_Memory.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Instruction_Memory.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Instruction_Memory
 
 Top level modules:
 	Instruction_Memory
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/ALU_Control.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU_Control.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/ALU_Control.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/ALU_Control.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ALU_Control
 
 Top level modules:
 	ALU_Control
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/sign_Extension.v} {0 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\sign_Extension.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/sign_Extension.v} {0 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/sign_Extension.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-** Error: C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\sign_Extension.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+** Error: C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/sign_Extension.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
 
-} {3.0 4.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/shifter.v} {0 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\shifter.v}
+} {3.0 4.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/shifter.v} {0 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/shifter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-** Error: C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\shifter.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+** Error: C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/shifter.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
 
-} {3.0 4.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/MIPS_TB.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_TB.v}
+} {3.0 4.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/MIPS_TB.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/MIPS_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module MIPS_TB
 
 Top level modules:
 	MIPS_TB
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/MIPS_32-bit_DataPath.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\MIPS_32-bit_DataPath.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/MIPS_32-bit_DataPath.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/MIPS_32-bit_DataPath.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module MIPS_Datapath
 
 Top level modules:
 	MIPS_Datapath
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Mux_2to1.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Mux_2to1.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Mux_2to1.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Mux_2to1.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Mux_2to1
 
 Top level modules:
 	Mux_2to1
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/program_counter.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\program_counter.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/program_counter.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/program_counter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module PC
 
@@ -51,32 +51,29 @@ Top level modules:
 } {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/branchALU.v} {0 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\branchALU.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\branchALU.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
-** Error: (vlog-13069) C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\branchALU.v(4): near "wire": syntax error, unexpected wire.
-** Error: C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\branchALU.v(8): (vlog-2730) Undefined variable: 'pcAND'.
-** Error: C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\branchALU.v(8): (vlog-2730) Undefined variable: 'shiftedAND'.
 
-} {3.0 7.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/control.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\control.v}
+} {3.0 4.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/control.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/control.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Control
 
 Top level modules:
 	Control
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/ALU.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\ALU.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/ALU.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/ALU.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ALU
 
 Top level modules:
 	ALU
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Data_Memory.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\Data_Memory.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Data_Memory.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/Data_Memory.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Data_Memory
 
 Top level modules:
 	Data_Memory
 
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v} {1 {vlog -work work -stats=none {C:\Users\Hannselthill Camacho\Desktop\Spring2020\ECE174\Project 1\register_File.v}
+} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Register_File
 
