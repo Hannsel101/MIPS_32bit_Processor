@@ -73,14 +73,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Data_Memory
 
-} {} {}} {G:/GithubRepos/MIPS_32bit_Processor/Project 2/cacheTB.v} {1 {vlog -work work -stats=none {G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v}
+} {} {}} {G:/GithubRepos/MIPS_32bit_Processor/Project 2/cacheTB.v} {0 {vlog -work work -stats=none {G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module cacheTB
+** Error: (vlog-13069) G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v(21): near "Cache": syntax error, unexpected IDENTIFIER, expecting ';'.
 
-Top level modules:
-	cacheTB
-
-} {} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v}
+} {4.0 5.0} {}} {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v} {1 {vlog -work work -stats=none {C:/Users/Hannselthill Camacho/Desktop/Spring2020/ECE174/Project 1/register_File.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Register_File
 

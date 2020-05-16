@@ -8,9 +8,10 @@ module Cache(
 	input [31:0] dataFromProg,//Data being updated by the program
 	input doneLoading,//Main memory indicates it is done loading
 	output reg load,//Asserts a load from main memory
-	output reg [3:0] loadIndex,//Index to load from in main memory
-	output reg[32:0] dataOut,//Data being read from cache
-	output reg hit, stall);//Status flags to either stall the cpu or indicate a hit has occurred
+	output [3:0] loadIndex,//Index to load from in main memory
+	output reg[31:0] dataOut,//Data being read from cache
+	output reg hit, stall,
+	output reg [63:0] updateMain);//Status flags to either stall the cpu or indicate a hit has occurred
 	
 	localparam IDLE = 0;
 	localparam SEARCH_CACHE = 1;
@@ -19,13 +20,15 @@ module Cache(
 	localparam READ_FROM_CACHE = 4;
 	localparam UPDATE_MAIN_MEMORY = 5;
 	
+	assign loadIndex = tag << 1;
+	
 	reg validTable [0:3]; //Table holding the valid bit for each index
 	reg [2:0] tagTable [0:3]; //table holding the tags for each index 
 	reg [63:0] cacheMemory [0:3]; //The data stored in the cache. two words per block
 	reg [2:0] cacheState;//Keeps track of what cache is currently doing
 	
 	
-	always @(posedge clk or reset or doneLoading)
+	always @(posedge clk or reset) //or doneLoading)
 	begin
 		if(reset)//Load the initial instructions from memory to fill the first index
 			begin
@@ -33,7 +36,6 @@ module Cache(
 				validTable [1] <= 0;//**
 				validTable [2] <= 0;//Clear other valid bits
 				validTable [3] <= 0;//**
-				loadIndex <= 4'b0;//Load first index from main memory
 				dataOut <= 0;//Output no data
 				cacheState <= IDLE;//Initialize the cacheState to idle
 				hit <= 0;
@@ -55,6 +57,7 @@ module Cache(
 					IDLE: //waiting for instructions
 					begin
 						stall <= 0;
+						hit <= 0;
 						if(readRequest)
 						begin
 							cacheState <= SEARCH_CACHE;
@@ -72,25 +75,53 @@ module Cache(
 							begin
 								cacheState <= READ_FROM_CACHE;
 							end
+							else
+							begin
+								cacheState <=READ_BLOCK_FROM_MEM;
+								stall <= 1;
+							end
+						end
+						else
+						begin
+							cacheState <= READ_BLOCK_FROM_MEM;
+							stall <= 1;
 						end
 					end
 					READ_BLOCK_FROM_MEM: //Read a block from main memory
 					begin
-					
+						load <= 1;
+						if(doneLoading)
+						begin
+							cacheMemory[index] <= {dataFromMain[31:0], dataFromMain[63:32]};
+							load <= 0;
+							tagTable[index] <= tag;
+							validTable[index] <= 1;
+							cacheState <= READ_FROM_CACHE;
+						end
 					end
 					WRITE_TO_CACHE: //Update cache tables and data
 					begin
-					
+						if(offset)
+						begin
+							cacheMemory[index][63:32] <= dataFromProg;
+						end
+						else
+						begin
+							cacheMemory[index][31:0] <= dataFromProg;
+						end
+						cacheState <= UPDATE_MAIN_MEMORY;
 					end
 					READ_FROM_CACHE: //Send out data from cache
 					begin
 						//Select which word to send inside the specified block
 						dataOut <= offset ? cacheMemory[index][63:32] : cacheMemory[index][31:0];
 						hit <= 1;
+						cacheState <= IDLE;
 					end
 					UPDATE_MAIN_MEMORY: //Keep main memory consistent with changes in cache while cpu continues execution
 					begin
-					
+						updateMain <= cacheMemory[index];
+						cacheState <= IDLE;
 					end
 					default:
 					begin

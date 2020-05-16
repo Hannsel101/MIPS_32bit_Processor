@@ -53,13 +53,13 @@ R5
 R6
 n@a@l@u_@control
 vCache
-!s110 1589587741
+!s110 1589610578
 !i10b 1
-!s100 J_F[z_J968cMV[Xe[8@H93
-I_V7JD;`?d56l=cozYZi7N2
+!s100 4TWzZ:R26l3<PObS=:75I1
+I_XAZ0>m3@HohZf<?`czEU3
 R1
 R2
-w1589587734
+w1589610576
 8G:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v
 FG:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v
 L0 1
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-!s108 1589587741.000000
+!s108 1589610578.000000
 !s107 G:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v|
 !i113 1
@@ -119,13 +119,13 @@ R5
 R6
 n@cache_@memory
 vcacheTB
-!s110 1589587510
+!s110 1589607513
 !i10b 1
-!s100 =LWI1Fme7=T1hh`z`j6Y]1
-I14clM?GWf8D5OU5aB;i0D2
+!s100 aRjaa5dmUfdo2b2FjCOU33
+IZOU6f[6;Ul9oMlJ9n^FE;3
 R1
 R2
-w1589587389
+w1589607504
 8G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v
 FG:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v
 L0 1
@@ -133,7 +133,7 @@ R3
 r1
 !s85 0
 31
-!s108 1589587510.000000
+!s108 1589607513.000000
 !s107 G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v|
 !i113 1
