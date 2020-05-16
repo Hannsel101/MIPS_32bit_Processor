@@ -52,6 +52,94 @@ R4
 R5
 R6
 n@a@l@u_@control
+vCache
+!s110 1589587741
+!i10b 1
+!s100 J_F[z_J968cMV[Xe[8@H93
+I_V7JD;`?d56l=cozYZi7N2
+R1
+R2
+w1589587734
+8G:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v
+FG:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589587741.000000
+!s107 G:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\GithubRepos\MIPS_32bit_Processor\Project 2\newCache.v|
+!i113 1
+R5
+R6
+n@cache
+vCache_Controller
+!s110 1589557625
+!i10b 1
+!s100 lNUnSBm>iogiH;0^JhM<[2
+In^moYUXBfk9`@7^L65h8:0
+R1
+R2
+w1589551401
+8G:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Controller.v
+FG:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589557625.000000
+!s107 G:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Controller.v|
+!i113 1
+R5
+R6
+n@cache_@controller
+vCache_Memory
+!s110 1589550955
+!i10b 1
+!s100 VLen[U@X`;nJg9JNFiK]12
+IWRejHm638h[@VD>DJ2FYm3
+R1
+R2
+w1589550949
+8G:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Memory.v
+FG:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589550955.000000
+!s107 G:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\GithubRepos\MIPS_32bit_Processor\Project 2\Cache_Memory.v|
+!i113 1
+R5
+R6
+n@cache_@memory
+vcacheTB
+!s110 1589587510
+!i10b 1
+!s100 =LWI1Fme7=T1hh`z`j6Y]1
+I14clM?GWf8D5OU5aB;i0D2
+R1
+R2
+w1589587389
+8G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v
+FG:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589587510.000000
+!s107 G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\GithubRepos\MIPS_32bit_Processor\Project 2\cacheTB.v|
+!i113 1
+R5
+R6
+ncache@t@b
 vControl
 R7
 !i10b 1
